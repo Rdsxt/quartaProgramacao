@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1%;
+    padding-right: 2%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar > span{
+    color: rgb(91, 190, 190);
+}
+
+#botoesNav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 5%;
+    width: 50%;
+
+    text-decoration: none;
+    color: black;
+}
+
+#botoesNav:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerImg {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.containerImg > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerImg img {
+    max-width:65%;
+    max-height:120%;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+

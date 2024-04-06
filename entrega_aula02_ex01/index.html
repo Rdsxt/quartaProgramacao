@@ -4,22 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grupo Cruzeiro do Norte</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Grupo Cruzeiro do Norte</h1>
-        <nav>
-            <ul>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-            </ul>
+    <header class="navbar">
+        <span>
+            <h1>Grupo Cruzeiro do Norte</h1>
+        </span>
+        <nav id="botoesNav">
+            <a href="servicos.html"><h3>Serviços</h3></a>
+            <a href="sobre.html"><h3>Sobre</h3></a>
         </nav>
     </header>
     <section id="destaque">
-        <h2>Conheça nossos serviços</h2>
+        <h2 style="text-align: center">Conheça Nossos Serviços</h2>
+        <div class="container">
+            <div class="containerImg">
+                <div>
+                    <img src="./imagens/img1.jpeg" alt="img1">
+                    <figcaption style="padding-top: 3%; font-family: Arial, Helvetica, sans-serif;">Desenvolvimento Web</figcaption>
+                </div>
+                <div>
+                    <img src="./imagens/img2.jpeg" alt="img2">
+                    <figcaption style="padding-top: 3%; font-family: Arial, Helvetica, sans-serif;">Design Gráfico</figcaption>
+                </div>
+                <div>
+                    <img src="./imagens/img3.jpeg" alt="img3">
+                    <figcaption style="padding-top: 3%; font-family: Arial, Helvetica, sans-serif;">Consultoria de TI</figcaption>
+                </div>
+            </div>
+        </div>
     </section>
     <footer>
-        <p>&copy; 2024 Grupo Cruzeiro do Norte. Todos os direitos reservados.</p>
+        <p style="text-align: center; padding-top: 16%;">&copy; 2024 Grupo Cruzeiro do Norte. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
